@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-            <Route
+            {/* <Route
               path="/"
               element={
                 <PrivateRoute>
@@ -45,11 +45,11 @@ function App() {
                 />
               </Route>
               <Route path="wallet" element={<Wallet />}></Route>
-            </Route>
+            </Route> */}
           {/* <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/" element={<Navigate replace to="/login" />} /> */}
-          <Route path="*" element={<PageNotFound />} />
+          {/* <Route path="*" element={<PageNotFound />} /> */}
         </Routes>
     </div>
   );
