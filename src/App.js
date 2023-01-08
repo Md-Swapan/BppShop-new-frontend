@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Islamic from './Pages/CategoryPage/Islamic/Islamic';
@@ -22,7 +23,6 @@ import PageNotFound from './Pages/PageNotFound/PageNotFound';
 function App() {
   return (
     <div className="App">
-    <h1>BppShop</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="islamic" element={<Islamic />} />
