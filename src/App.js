@@ -22,7 +22,6 @@ import PageNotFound from './Pages/PageNotFound/PageNotFound';
 function App() {
   return (
     <div className="App">
-    <h1>BppShop</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="islamic" element={<Islamic />} />
