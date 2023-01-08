@@ -3,7 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>bpp shop </h1>
+      <h1>bpp shop new frontend</h1>
+
+      <p>welcome to new project</p>
     </div>
   );
 }
