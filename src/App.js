@@ -5,6 +5,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+    <h1>BppShop</h1>
       <Routes>
             {/* <Route
               path="/"
