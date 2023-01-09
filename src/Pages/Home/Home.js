@@ -10,6 +10,7 @@ const Home = () => {
         without relying on meaningful content. Lorem ipsum may be used as a
         placeholder before final copy is available.
       </p>
+      <h1>Start</h1>
     </div>
   );
 };
